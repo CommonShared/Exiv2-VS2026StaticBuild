@@ -23,10 +23,7 @@
 
 ```text
 Exiv2/
-├── include/        # Exiv2 头文件
-├── lib/            # 静态库
-├── bin/            # 构建后的工具
-├── examples/       # 示例
+├── ...
 ├── CMakeLists.txt
 └── README.md
 ```
