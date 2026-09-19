@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\asfvideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\basicio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\bmffimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\bmpimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\convert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\cr2image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\crwimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\datasets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\easyaccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\epsimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\exif.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\futils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\gifimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\iptc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\jp2image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\jpgimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\metadatum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\mrwimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\orfimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pgfimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\photoshop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\preview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\psdimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\rafimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\rw2image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tgaimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\webpimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\xmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\xmpsidecar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pngimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\matroskavideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\quicktimevideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\riffvideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\fff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\basicio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\bmffimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\bmpimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\convert.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\cr2image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\crwimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\datasets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\easyaccess.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\epsimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\error.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\exif.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\exiv2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\futils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\gifimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\image_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\iptc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\jp2image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\jpgimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\metadatum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\mrwimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\orfimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\params.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\pgfimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\photoshop.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\preview.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\properties.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\psdimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\rafimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\rw2image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\slice.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\tags.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\tgaimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\tiffimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\value.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\version.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\webpimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\xmp_exiv2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\xmpsidecar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\pngimage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\asfvideo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\matroskavideo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\quicktimevideo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2\riffvideo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\canonmn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\casiomn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\cr2header_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\crwimage_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\fujimn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\helper_functions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\image_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\jp2image_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\makernote_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\minoltamn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\nikonmn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\olympusmn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\orfimage_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\panasonicmn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\pentaxmn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\rw2image_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\samsungmn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\sigmamn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\sonymn_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\tags_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\tiffcomposite_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\tiffimage_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\tiffvisitor_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\exiv2lib_int.dir\$(Configuration)\pngchunk_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\ExpatAdapter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\MD5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\ParseRDF.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\UnicodeConversions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\WXMPIterator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\WXMPMeta.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\WXMPUtils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XML_Node.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPCore_Impl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPIterator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPMeta-GetSet.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPMeta-Parse.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPMeta-Serialize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPMeta.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPUtils-FileInfo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\xmpsdk\exiv2-xmp.dir\$(Configuration)\XMPUtils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{201E21F2-1B75-356F-8359-0D1C6109433A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{EFC27194-827F-372B-96AE-42FA7720A363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6DDA3188-1DAB-34B1-AC74-348AEE79B198}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

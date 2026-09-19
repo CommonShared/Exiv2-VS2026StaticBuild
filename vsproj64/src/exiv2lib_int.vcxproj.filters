@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\canonmn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\casiomn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\cr2header_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\crwimage_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\fujimn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\helper_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\image_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\jp2image_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\makernote_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\minoltamn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\nikonmn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\olympusmn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\orfimage_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\panasonicmn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pentaxmn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\rw2image_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\samsungmn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sigmamn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sonymn_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tags_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffcomposite_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffimage_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffvisitor_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pngchunk_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\canonmn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\casiomn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\cr2header_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\crwimage_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\fujimn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\helper_functions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\image_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\jp2image_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\makernote_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\minoltamn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\nikonmn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\olympusmn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\orfimage_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\panasonicmn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pentaxmn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\rw2image_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\safe_op.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\samsungmn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sigmamn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sonymn_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tags_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffcomposite_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffimage_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffvisitor_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tifffwd_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pngchunk_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{201E21F2-1B75-356F-8359-0D1C6109433A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6DDA3188-1DAB-34B1-AC74-348AEE79B198}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

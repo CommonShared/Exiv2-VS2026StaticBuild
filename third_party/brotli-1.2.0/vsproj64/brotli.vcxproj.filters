@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\brotli-1.2.0\c\tools\brotli.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\brotli-1.2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5587E016-8737-353A-B604-07871034FB2D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

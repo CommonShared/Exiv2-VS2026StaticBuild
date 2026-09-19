@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\brotli-1.2.0\vsproj64\CMakeFiles\18e9f33294c8f287144c894dd1df4e26\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{74D77BE4-6A51-316F-B6FF-5FDEF92B90D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

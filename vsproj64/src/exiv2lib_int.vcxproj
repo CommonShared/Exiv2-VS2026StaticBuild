@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{310DE5C1-A977-3884-B377-6615512A2C36}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>exiv2lib_int</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">exiv2lib_int.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">exiv2lib_int.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">exiv2lib_int</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exiv2lib_int.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exiv2lib_int.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exiv2lib_int</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">exiv2lib_int.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">exiv2lib_int.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">exiv2lib_int</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">exiv2lib_int.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">exiv2lib_int.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">exiv2lib_int</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master/CPP" /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master" /Zo /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master/CPP" /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master/CPP" /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master/CPP" /external:I "C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/third_party/inih-master" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;exiv2lib_EXPORTS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\include\exiv2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master\CPP;C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\inih-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\DevelopmentEnvironment\Softwares\CMake\bin\cmake.exe -SC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main -BC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64 --check-stamp-file C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\cmake\exiv2-config.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\DevelopmentEnvironment\Softwares\CMake\bin\cmake.exe -SC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main -BC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64 --check-stamp-file C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\cmake\exiv2-config.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\DevelopmentEnvironment\Softwares\CMake\bin\cmake.exe -SC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main -BC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64 --check-stamp-file C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\cmake\exiv2-config.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\DevelopmentEnvironment\Softwares\CMake\bin\cmake.exe -SC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main -BC:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64 --check-stamp-file C:/Users/ppshuai/Downloads/exiv2-main/exiv2-main/vsproj64/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\cmake\exiv2-config.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\DevelopmentEnvironment\Softwares\CMake\share\cmake-4.2\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\canonmn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\canonmn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\casiomn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\casiomn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\cr2header_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\cr2header_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\crwimage_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\crwimage_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\fujimn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\fujimn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\helper_functions.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\helper_functions.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\image_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\image_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\jp2image_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\jp2image_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\makernote_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\makernote_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\minoltamn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\minoltamn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\nikonmn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\nikonmn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\olympusmn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\olympusmn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\orfimage_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\orfimage_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\panasonicmn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\panasonicmn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pentaxmn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pentaxmn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\rw2image_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\rw2image_int.hpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\safe_op.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\samsungmn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\samsungmn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sigmamn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sigmamn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sonymn_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\sonymn_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tags_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tags_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffcomposite_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffcomposite_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffimage_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffimage_int.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffvisitor_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tiffvisitor_int.hpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\tifffwd_int.hpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\utils.hpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\utils.cpp" />
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pngchunk_int.cpp" />
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\src\pngchunk_int.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\vsproj64\ZERO_CHECK.vcxproj">
+      <Project>{651FCF05-24D9-3013-87ED-2F5CC661ADC9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

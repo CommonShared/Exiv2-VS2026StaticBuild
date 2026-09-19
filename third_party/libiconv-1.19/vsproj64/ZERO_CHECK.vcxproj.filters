@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\libiconv-1.19\vsproj64\CMakeFiles\49e5a903c97da82f210f00f03f588839\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CA74E556-CBD8-34DB-AF56-D9F8E9EA26F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

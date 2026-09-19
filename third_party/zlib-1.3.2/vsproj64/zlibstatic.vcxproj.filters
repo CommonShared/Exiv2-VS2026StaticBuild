@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\vsproj64\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\zlib-1.3.2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{25FE1242-E24F-369E-943E-A6EF710D947D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF7033C1-3249-3F78-9142-D78876DACFF6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

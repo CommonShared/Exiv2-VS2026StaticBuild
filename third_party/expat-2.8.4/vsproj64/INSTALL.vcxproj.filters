@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ppshuai\Downloads\exiv2-main\exiv2-main\third_party\expat-2.8.4\vsproj64\CMakeFiles\d7cf21c4e8a646f8711bcb27b0333ac4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7DD0940A-18C5-334D-A1BC-F9A5010474A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
